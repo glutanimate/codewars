@@ -1,0 +1,9 @@
+.vscode
+.idea
+*.pyc
+*.class
+*.sublime-project
+*.sublime-workspace
+__pycache__
+.hidden
+.directory
