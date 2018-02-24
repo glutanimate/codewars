@@ -36,4 +36,4 @@ solve(["sadfb"])
 
 def solve(arr):
     return [sum(c == "abcdefghijklmnopqrstuvwxyz"[idx]
-            for idx, c in enumerate(word[:26].lower())) for w in arr]
+            for idx, c in enumerate(w[:26].lower())) for w in arr]
